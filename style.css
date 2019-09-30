@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+    color: #777;
+}
+
+.mainheader{
+    text-align: center;
+}
+
+.section-header{
+    text-align: center;
+}
+
+.shop-item{
+    margin: 30px;
+}
+
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.shop-item-image{
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.shop-item-price{
+    flex-grow: .9;
+}
+
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.cart-column{
+    display: flex;
+    align-items: center;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row{
+    display: flex;
+}
+
+.cart-item{
+    width: 45%;
+}
+
+.cart-price{
+    width: 20%;
+}
+
+.cart-quantity{
+    width: 35%;
+}
+
+.cart-item-title{
+    margin-left: .5em;
+}
+
+.cart-item-image{
+    width: 75px;
+    height: auto;
+}
+
+.cart-quantity-input {
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.cart-subtotal{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.cart-subtotal-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 300px;
+}
+
+.cart-subtotal-price{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.cart-total-items-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 110px;
+}
+
+.cart-total-items{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.cart-discount{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.cart-discount-title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.cart-discount-price{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.cart-total{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.cart-total-price{
+    font-weight: bold;
+    font-size: 1.5em;
+}
