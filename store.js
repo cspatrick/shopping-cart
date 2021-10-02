@@ -4,7 +4,7 @@ if (document.readyState == 'loading') {
 } else {
     ready()
 }
-console.log("my name jeff");
+console.log("my name is not jeff");
 function ready() {
     var removeCartItemButtons = document.getElementsByClassName('btn-remove')
     for (var i = 0; i < removeCartItemButtons.length; i++) {
